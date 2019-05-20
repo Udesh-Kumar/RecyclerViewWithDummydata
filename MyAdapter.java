@@ -46,7 +46,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
 
 
         myViewHolder.textViewww.setText(data.get(i));
-        myViewHolder.images.setImageResource(itemsimg.get(i));
+        myViewHolder.images.setImageResource(R.drawable.ic_lanchaure);
     }
 
     @Override
